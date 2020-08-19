@@ -15,14 +15,12 @@
         "public": [
             { "label": "Wizdm" },
             { "label": "Chi siamo" },
-            { "label": "Documentazone" },
             { "label": "Donazioni" }
         ],
         "private": [
             { "label": "Wizdm" },
             { "label": "Esplora" },
             { "label": "Chat" },
-            { "label": "Documentazione" },
             { "label": "Donazioni" }
         ]
     },
@@ -31,7 +29,6 @@
         "public": [
             { "label": "Wizdm" },
             { "label": "Chi siamo" },
-            { "label": "Documentazione" },
             { "label": "Donazioni" },
             { "label": "Entra/Registrati" }
         ],
@@ -40,7 +37,6 @@
             { "label": "Profilo" },
             { "label": "Esplora" },
             { "label": "Chat" },
-            { "label": "Documentazione" },
             { "label": "Impostazioni" },
             { "label": "Donazioni" },
             { "label": "Esci" }

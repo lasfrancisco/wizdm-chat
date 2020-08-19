@@ -16,14 +16,12 @@
         "public": [
             { "label": "Wizdm", "link": ".", "exact": true },
             { "label": "About", "link": "about" },            
-            { "label": "Reference", "link": "docs" },
             { "label": "Donate", "link": "donate" }
         ],
         "private": [
             { "label": "Wizdm", "link": ".", "exact": true },
             { "label": "Explore", "link": "explore" },
             { "label": "Chat", "link": "chat", "handling": "preserve" },
-            { "label": "Reference", "link": "docs" },
             { "label": "Donate", "link": "donate" }
         ]
     },
@@ -32,7 +30,6 @@
         "public": [
             { "label": "Wizdm", "link": ".", "exact": true },
             { "label": "About", "link": "about" },
-            { "label": "Reference", "link": "docs" },
             { "label": "Donate", "link": "donate" },
             { "label": "Register/Sign-in", "link": "login", "params": { "mode": "signIn" } }
         ],
@@ -41,7 +38,6 @@
             { "label": "Profile", "icon": "", "link": "@me" },
             { "label": "Explore", "link": "explore" },
             { "label": "Chat", "link": "chat", "handling": "preserve" },
-            { "label": "Reference", "link": "docs" },
             { "label": "Settings", "link": "settings" },
             { "label": "Donate", "link": "donate" },
             { "label": "Sign-out", "link": "login", "params": { "mode": "signOut" } }

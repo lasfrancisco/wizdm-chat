@@ -20,7 +20,7 @@ const routes: RoutesWithContent = [
   // Enables language autodetection on empty routes
   { path: '', redirectTo: 'auto', pathMatch: 'full' },
   
-  // Loads te main window (navigator) together with the localized content 
+  // Loads the main window (navigator) together with the localized content 
   {
     path: ':lang',
     
@@ -64,11 +64,8 @@ const routes: RoutesWithContent = [
       { path: 'contact', canActivate: [ ActionLinkObserver ] },
       { path: 'back',    canActivate: [ BackLinkObserver ] },
       { path: 'close',   canActivate: [ CloseLinkObserver ] },
-      
-      // Docs (using static docs subfolder)
-      { path: 'docs', redirectTo: 'docs/start', pathMatch: 'full' },
-      
-      // Static content pages (about, terms, docs/...), redirecting to NotFound when no content is available
+            
+      // Static content pages (about, terms, ...), redirecting to NotFound when no content is available
       { matcher: matchFullPath, loadChildren: () => import('../pages/static/static.module').then(m => m.StaticModule) },
 
       // Anything else will route to not found
