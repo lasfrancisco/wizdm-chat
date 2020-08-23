@@ -18,7 +18,7 @@
 
         "action": { "caption": "Get started", "link": "chat", "hint": "Join us 🙏🏻 and become part of the revolution of [Wizdm](about)" },
 
-        "animation": { "name": "fadeInUp" }
+        "animation": { "name": "fadeInUp", "speed": "slow" }
       }
     }
   ]

@@ -5,8 +5,9 @@
   [fxFlex.gt-sm]="config.illustration ? 50 : 100" 
   [fxFlexOrder]="textbox.order || 1" 
   [wmAnimate]="textbox.animation?.name || 'none'" 
-  [aos]="textbox.animation?.aos || 0.5"
-  [once]="textbox.animation?.once || false">
+  [speed]="textbox.animation?.speed || undefined"
+  [once]="textbox.animation?.once || false" 
+  [aos]="textbox.animation?.aos || 0.5">
 
   <h1 class="mat-display-1"><b>{{ textbox.title || 'Title goes here' }}</b></h1>
   
