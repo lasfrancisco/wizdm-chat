@@ -2,6 +2,9 @@
     "title": "Wizdm - Get your app done right",
     "description": "The fully featured boilerplate to launch your web application quickly",
 
+    "logo": { "url": "assets/img/chatlogo.png" },
+    "color": "accent",
+
     "settings": {
         "admin": { "label": "Admin", "icon": "", "link": "admin" },
         "public": { "icon":"fas:fa-sign-in-alt", "link": "login" },

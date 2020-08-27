@@ -39,8 +39,8 @@ $wm-typography: mat-typography-config(
 );
 
 // Define the main theme colors palettes.
-$wm-primary: mat-palette($mat-blue);
-$wm-accent:  mat-palette($mat-amber);//, 400, 600, 800);
+$wm-primary: mat-palette($mat-teal);
+$wm-accent:  mat-palette($mat-pink);
 $wm-warn:    mat-palette($mat-red);
 
 // Creates a standard material light theme first...
@@ -57,7 +57,13 @@ $wm-light-theme: tweak-material-theme($wm-light-theme,
     text:              mat-color($wm-primary, 900),
     //light-text:       mat-color($primary, 50),
     dark-text:         mat-color($wm-primary, 900)
-  )
+  )/*,
+
+  $background: (
+    background: mat-color($wm-primary, 50),
+    dialog: mat-color($wm-primary, 50),
+    card: mat-color($wm-primary, 50)
+  )*/
 );
 
 // Include the keys definition for the emoji-keyboard once
