@@ -88,8 +88,8 @@ $wm-light-theme: tweak-material-theme($wm-light-theme,
 .dark-mode {
 
   // Define the main theme colors palettes.
-  $wm-dark-primary: mat-palette($mat-blue, 700, 300, 900, 700);
-  $wm-dark-accent:  mat-palette($mat-amber, 700, 300, 900, 700);
+  $wm-dark-primary: mat-palette($mat-teal, 700, 300, 900, 700);
+  $wm-dark-accent:  mat-palette($mat-pink, 700, 300, 900, 700);
   $wm-dark-warn:    mat-palette($mat-red, 700, 300, 900, 700);
 
   $wm-dark-theme: mat-dark-theme($wm-dark-primary, $wm-dark-accent, $wm-dark-warn);
