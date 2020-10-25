@@ -24,7 +24,7 @@ const routes: RoutesWithContent = [
   {
     path: ':lang',    
     component: NavigatorComponent,    
-    canActivate: [ WelcomeBack, UserPreferences ],    
+    canActivate: [ /*WelcomeBack,*/ UserPreferences ],    
     content: 'navigator',
     
     children: [

@@ -1,6 +1,6 @@
 {
-    "title": "Wizdm - Get your app done right",
-    "description": "The fully featured boilerplate to launch your web application quickly",
+    "title": "Chat with people around the globe",
+    "description": "The only platform that makes you connect with real people",
 
     "logo": { "url": "assets/img/chatlogo.png" },
     "color": "accent",
@@ -17,12 +17,12 @@
 
     "navbar": {
         "public": [
-            { "label": "Wizdm", "link": ".", "exact": true },
+            { "label": "Home", "link": ".", "exact": true },
             { "label": "About", "link": "about" },            
             { "label": "Donate", "link": "donate" }
         ],
         "private": [
-            { "label": "Wizdm", "link": ".", "exact": true },
+            { "label": "Home", "link": ".", "exact": true },
             { "label": "Explore", "link": "explore" },
             { "label": "Chat", "link": "chat", "handling": "preserve" },
             { "label": "Donate", "link": "donate" }
@@ -31,13 +31,13 @@
 
     "menu": {
         "public": [
-            { "label": "Wizdm", "link": ".", "exact": true },
+            { "label": "Home", "link": ".", "exact": true },
             { "label": "About", "link": "about" },
             { "label": "Donate", "link": "donate" },
             { "label": "Register/Sign-in", "link": "login", "params": { "mode": "signIn" } }
         ],
         "private": [
-            { "label": "Wizdm", "link": ".", "exact": true },
+            { "label": "Home", "link": ".", "exact": true },
             { "label": "Profile", "icon": "", "link": "@me" },
             { "label": "Explore", "link": "explore" },
             { "label": "Chat", "link": "chat", "handling": "preserve" },
